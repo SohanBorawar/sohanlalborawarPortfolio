@@ -1,0 +1,82 @@
+@media screen and (max-width:650px)  {
+    body{
+       position: absolute;
+    }
+    .nav-bar{
+        overflow: hidden;
+    }
+    .nav-list{
+        /*display: none;*/
+        position: absolute;
+        top: -68px;
+        left: 0px;
+        right: 0px;
+        transition: 0.2s ;
+        height: 40px;
+        background: linear-gradient(1750deg, #AE3D39 0%, #FF5F59 92.31%);
+        opacity: 0;
+        overflow: hidden;
+        padding: 10px 10px;
+
+    }
+    .nav-link:hover{
+        text-decoration: underline;
+    background-color: #000;
+    border-radius: 5px;
+    color: #C9C9C9;
+    transition: 0.2ms;
+    }
+    .hamburger{
+        display: block;
+        cursor: pointer;
+
+    }
+
+    .footnav{
+        padding: 10px 100px;
+    }
+    .contact{
+        font-size: larger;
+    }
+    .a-nav{
+        padding: 10px 10px;
+    }
+    .co-link{
+        display: block;
+    }
+
+
+}
+
+
+@media screen and (max-width:650px){
+    .p-section-a{
+        display: block;
+        padding: 50px 250px;
+    }
+    .p-s-a-right{
+        padding: 20px 120px;
+    }
+}
+/***********************contact*******************************/
+@media screen and (max-width:650px) {
+    .c-section-a{
+        padding-top: 50px;
+    }
+    .c-s-b--main {
+        padding: 50px 10%;
+    }    
+
+    
+}
+
+/*********************Blog**********************************/
+@media screen and (max-width:650px){
+    .b-section-a{
+        padding: 60px;
+    }
+    .b-s-b-bg{
+        display: block;
+    }
+
+}
